@@ -22,8 +22,8 @@ jobs:
       - name: Install dependencies
         run: npm ci
       - name: Sync Quartz
-      - name: Build Quartz
         run: npx quartz sync
+      - name: Build Quartz
         run: npx quartz build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
