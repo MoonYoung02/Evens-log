@@ -1,9 +1,19 @@
---- 
-publish: true 
-title: "내 블로그 홈페이지" 
-tags: [welcome, blog] 
-created: 2026-02-03 
+---
 
---- 
+# Evens's log
+---
+---
+publish: true
+title: "Evens's log"
+---
 
-# 환영합니다! 여기는 내 공개 블로그입니다.
+# Even's log!!
+
+공부하는 것을 정돈하는 블로그입니다.
+
+### 최근 글
+
+```component
+RecentNotes
+limit: 5
+```
